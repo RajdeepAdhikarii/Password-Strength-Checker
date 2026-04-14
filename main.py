@@ -17,7 +17,7 @@ for ch in password:
     else:
         has_special = True
 
-# Check missing conditions
+
 if len(password) < 8:
     missing.append("Minimum 8 characters")
 
